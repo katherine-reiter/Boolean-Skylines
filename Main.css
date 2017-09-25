@@ -1,0 +1,178 @@
+body {
+	font-size:24pt;
+	font-family: "Courier New", sans-serif;
+	font-weight:bold;
+	color:white;
+}
+
+.closed {
+	position:absolute;
+	top: 20px;
+	left: 20px;
+	height:20px;
+	width:20px;
+	background-color:white;
+}
+
+.open {
+	position:absolute;
+	top:140px;
+	left:150px;
+	height:240px;
+	width:380px;
+	padding:20px;
+	background-color:black;
+	border:4px solid white;
+	opacity:1;
+	z-index:10;
+}
+
+.small {
+	font-size:14pt;
+}
+	
+.homeButton {
+	border:4px solid white;
+	float:left;
+	margin-top:10px;
+	margin-right:10px;
+	top:170px;
+	padding:10px;
+}
+	
+.hidden {
+	opacity:0.5;
+}	
+
+#star {
+	position:absolute;
+}
+
+.container {
+	height:560px;
+	width:700px;
+	background-color:black;
+}
+
+.slotBox {
+	width:200px;
+	height:90px;
+	position:absolute;
+	top:110px;
+	left:20px;
+}
+
+.slot {
+	height:41px;
+	width:200px;
+	background-color:black;
+	border: 2px solid white;
+	text-align:center;
+	padding-top:5px;
+}
+
+.slotEdit {
+	height:41px;
+	width:200px;
+	background-color:white;
+	border: 2px solid black;
+	text-align:center;
+	padding-top:5px;
+	color:black;
+}
+
+.skygrid {
+	position: absolute;
+	left: 240px;
+	top:8px;
+	width:468px;
+	height:200px;
+	background-color:rgb(0,0,64);
+	padding-top:101px;
+}
+
+.skyrow {
+	clear:both;
+}
+
+.skybox {
+	float:left;
+	height:48px;
+	width:48px;
+	border:1px solid rgb(0,0,64);
+}
+
+.selected {
+	opacity:0.5;
+}
+
+.truthTable {
+	position:absolute;
+	top:320px;
+	left:160px;
+	height:80px;
+	text-align:center;
+}
+
+.tthead {
+	float:left;
+	padding:5px;
+	height:20px;
+	width:70px;
+}
+
+.ttbody {
+	float:left;
+	padding:5px;
+	height:20px;
+	width:40px;
+}
+
+.info {
+	position:absolute;
+	top:500;
+	left:0px;
+	padding:20px;
+}
+
+.hover {
+	position:absolute;
+	background-color:black;
+	color:white;
+}
+
+#build {
+	background-color:black;
+	position:absolute;
+	top:410px;
+	left:20px;
+	height:60px;
+	width:200px;
+	border: 2px solid white;
+	text-align:center;
+	padding-top:20px;
+}
+
+#skip {
+	background-color:black;
+	position:absolute;
+	top:410px;
+	left:240px;
+	height:60px;
+	width:200px;
+	border: 2px solid white;
+	text-align:center;
+	padding-top:20px;
+}
+
+#sandy {
+	background-color:black;
+	position:absolute;
+	top:410px;
+	left:460px;
+	height:60px;
+	width:200px;
+	border: 2px solid white;
+	text-align:center;
+	padding-top:20px;
+}

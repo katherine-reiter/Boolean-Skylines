@@ -1,0 +1,112 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="Main.css">
+<title>Boolean Skylines</title>
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/jquery-ui.min.js"></script>
+<script src="Main.js"></script>
+</head>
+<body>
+
+<div id="home" onclick="home()"></div>
+
+<div class="container">
+
+<div class="slotBox">
+	<div id="opening">
+	A self-indulgent game about truth tables.
+	</div>
+	
+	<div id="slot1" class="slot">
+	</div>
+
+	<div id="slot2" class="slot">
+	</div>
+
+	<div id="slot3" class="slot">
+	</div>
+
+	<div id="slot4" class="slot">
+	</div>
+
+</div>
+
+<div class="skygrid">
+	<img id="star" src="lilstar.gif" style="{z-index:-1"}/>
+	<div class="skyrow">
+		<div class="skybox row1col1"></div>
+		<div class="skybox row1col2"></div>
+		<div class="skybox row1col3"></div>
+		<div class="skybox row1col4"></div>
+	</div>
+	<div class="skyrow">
+		<div class="skybox row2col1"></div>
+		<div class="skybox row2col2"></div>
+		<div class="skybox row2col3"></div>
+		<div class="skybox row2col4"></div>
+	</div>
+	<div class="skyrow">
+		<div class="skybox row3col1"></div>
+		<div class="skybox row3col2"></div>
+		<div class="skybox row3col3"></div>
+		<div class="skybox row3col4"></div>
+	</div>
+	<div class="skyrow">
+		<div class="skybox row4col1"></div>
+		<div class="skybox row4col2"></div>
+		<div class="skybox row4col3"></div>
+		<div class="skybox row4col4"></div>
+	</div>	
+</div>
+		
+<div class="truthTable">
+	<div class="pRow">
+		<div class="tthead">
+			p
+		</div>
+		<div class="ttbody">
+			T
+		</div>
+		<div class="ttbody">
+			T
+		</div>
+		<div class="ttbody">
+			F
+		</div>
+		<div class="ttbody">
+			F
+		</div>
+	</div>
+	<div class="qRow">
+		<div class="tthead">
+			q
+		</div>
+		<div class="ttbody">
+			T
+		</div>
+		<div class="ttbody">
+			F
+		</div>
+		<div class="ttbody">
+			T
+		</div>
+		<div class="ttbody">
+			F
+		</div>
+	</div>
+</div>		
+		
+<div class="buttonBox">
+
+	<div id="build" onclick="build()"></div>
+	<div id="skip" onclick="skip()">Skip ahead</div>
+	<div id="sandy" onclick="startSandbox()">Sandbox</div>
+
+</div>
+
+<div class="info">
+</div>
+
+</div>
+</body>
+</html>
